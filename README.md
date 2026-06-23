@@ -1,25 +1,28 @@
-# Podcasts de Programación
+🎙️ Podcasts Channel — Proyecto HTML & CSS/SCSS
+Pequeña página web responsive construida para practicar y demostrar habilidades básicas de HTML y CSS, con estilos compilados usando SCSS.
 
-Proyecto web estático desarrollado como práctica de maquetación y diseño responsive utilizando HTML y SCSS.
+🌐 Demo en vivo
+👉 Ver página
 
-## Descripción
+📌 Sobre el proyecto
+Simula un sitio de podcasts con 4 tarjetas y una sección de información con contenido placeholder describiendo cada podcast. El diseño se adapta a diferentes tamaños de pantalla.
+Este proyecto hace parte de un portafolio personal para mostrar código front-end limpio y bien estructurado.
 
-Este sitio web presenta una selección de cuatro podcasts relacionados con programación y tecnología. Cada podcast incluye información básica para que los usuarios puedan conocer su contenido de manera rápida y sencilla.
+🛠️ Tecnologías usadas
 
-El objetivo principal del proyecto es aplicar conceptos de diseño web responsivo, organización de estilos con SCSS y estructura semántica en HTML.
+HTML5 — estructura semántica
+CSS3 — estilos y layout
+SCSS — variables, anidamiento y estilos modulares compilados a CSS
 
-## Características
 
-- Diseño responsive para diferentes tamaños de pantalla.
-- Interfaz simple y fácil de navegar.
-- Información organizada de cuatro podcasts de programación.
-- Estilos desarrollados con SCSS y compilados a CSS.
-- Estructura basada únicamente en tecnologías frontend.
+🎯 Habilidades demostradas
+Habilidad                         Detalle
+HTML semántico                    Uso correcto de etiquetas como <section>, <article>, <header>
+CSS Flexbox / Grid                Layout y alineación de tarjetas
+Diseño responsive                 Media queries para distintos tamaños de pantalla
+SCSS                              Variables, anidamiento y estilos organizados
 
-## Tecnologías utilizadas
+👤 Autor
+Andrés Narváez
 
-- HTML5
-- CSS3
-- SCSS (Sass)
-
-## Estructura del proyecto
+GitHub: @Andresna23
