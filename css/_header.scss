@@ -1,0 +1,143 @@
+/*mobile*/
+
+header {
+    width: 100%;
+    position: static;
+    height: 45px;
+    top: 0;
+    padding: 12px 5%;
+}
+
+header img {
+    float: left;
+    width: 24px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav .menu ul {
+    width: 100%;
+    position: absolute;
+    font-family: 'IBM Plex Mono';
+    color: #00F3BB;
+    text-decoration: none;
+    top: 45px;
+    right: 0;
+    overflow: hidden;
+    list-style: none;
+    background: #0000EC;
+    height: 0px;
+}
+
+header nav .menu ul li {
+    position: relative;
+}
+
+header nav .menu ul li a {
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    padding: 16px 5%;
+    line-height: 28px;
+    display: block;
+}
+
+header nav .menu ul li a:active {
+    color: #060A24;
+    opacity: 56%;
+    text-decoration: line-through;
+}
+
+header nav .menu ul li a:hover {
+    color: #00F3BB;
+    text-decoration: line-through;
+}
+
+header nav .menu input[type="checkbox"]:checked~ul {
+    height: 240px;
+}
+
+header nav .menu {
+    padding-top: 3px;
+}
+
+
+/* checkbox */
+
+header nav .menu input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+}
+
+header nav .menu span {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 2.5px;
+    margin-bottom: 6.5px;
+    background: #000;
+    z-index: 1;
+    transform-origin: 3px 0px;
+}
+
+header nav .menu span:first-child {
+    transform-origin: 0% 0%;
+}
+
+header nav .menu span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+header nav .menu input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(2px, 1px);
+}
+
+header nav .menu input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+header nav .menu input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(1px, 0px);
+}
+
+@media screen and (min-width: 1024px) {
+    header img {
+        width: 36px;
+    }
+    header nav .menu ul {
+        position: relative;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        background: unset;
+        height: unset;
+    }
+    header nav .menu ul li {
+        padding: 5px 10px;
+        display: inline-block;
+    }
+    header nav .menu ul li:hover {
+        background: unset;
+    }
+    header nav .menu ul li a {
+        color: #060A24;
+        padding: unset;
+        font-size: 16px;
+        margin-inline: 0.8em;
+        line-height: unset;
+    }
+    header nav .menu input {
+        display: none;
+    }
+    header nav .menu span {
+        display: none;
+    }
+}
